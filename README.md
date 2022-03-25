@@ -96,7 +96,7 @@ X_center, Y_center, width, height are all normalized.
     """
     筛选不同特征尺度下与anchor匹配的ground truth
     """
-    # 根据anchor的长宽比来筛选属于这一层特征图的targets(GT) shape[m,7] 假设筛选得到m个
+    # 选GT：根据anchor的长宽比来筛选属于这一层特征图的targets(GT) shape[m,7] 假设筛选得到m个
     t = t[j]  # filter
     
     # 扩充有效网格，即增加左上/右上/左下/右下网格计算offsets，得到True或False
