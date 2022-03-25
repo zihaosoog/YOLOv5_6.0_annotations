@@ -201,6 +201,12 @@ Use function glob.glob() match all the files (jpg) in this path
     f += glob.glob(str(p / '**' / '*.*'), recursive=True)
 
 
+> anchor assignment
+![图片](https://user-images.githubusercontent.com/67272893/160047605-4c9df3ee-491d-4cd6-aa24-b1304908d364.png)
+
+
+
+
 # Reference
 > plots.py
 [(here)](https://blog.csdn.net/qq_38253797/article/details/119324328#t16)
